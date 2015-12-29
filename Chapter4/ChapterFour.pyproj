@@ -4,13 +4,14 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>707dcad5-e6ff-49cf-b1d5-9a0864d01b2e</ProjectGuid>
-    <ProjectHome>.</ProjectHome>
+    <ProjectHome>
+    </ProjectHome>
     <StartupFile>Change.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>Chapter4</Name>
+    <Name>ChapterFour</Name>
     <RootNamespace>Chapter4</RootNamespace>
     <InterpreterId>{2af0f10d-7135-4994-9156-5d01c9c11b7e}</InterpreterId>
     <InterpreterVersion>3.5</InterpreterVersion>
@@ -29,6 +30,12 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Quadratic.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SlopeDistance.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SphereVolumeArea.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>

@@ -7,7 +7,9 @@ Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "ChapterTwo", "TemperatureCo
 EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "ChapterThree", "ChapterThree\ChapterThree.pyproj", "{44977381-A2AB-4AC3-BC1E-1DBE11C7E89D}"
 EndProject
-Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Chapter4", "Chapter4\Chapter4.pyproj", "{707DCAD5-E6FF-49CF-B1D5-9A0864D01B2E}"
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "ChapterFour", "Chapter4\ChapterFour.pyproj", "{707DCAD5-E6FF-49CF-B1D5-9A0864D01B2E}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "ChapterFive", "Chapter5\ChapterFive.pyproj", "{A7B1BAD1-0336-4D66-B4A5-5F6F2AB1B943}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,8 @@ Global
 		{44977381-A2AB-4AC3-BC1E-1DBE11C7E89D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{707DCAD5-E6FF-49CF-B1D5-9A0864D01B2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{707DCAD5-E6FF-49CF-B1D5-9A0864D01B2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7B1BAD1-0336-4D66-B4A5-5F6F2AB1B943}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7B1BAD1-0336-4D66-B4A5-5F6F2AB1B943}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
