@@ -3,16 +3,17 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>707dcad5-e6ff-49cf-b1d5-9a0864d01b2e</ProjectGuid>
+    <ProjectGuid>{707dcad5-e6ff-49cf-b1d5-9a0864d01b2e}</ProjectGuid>
     <ProjectHome>
     </ProjectHome>
-    <StartupFile>Change.py</StartupFile>
+    <StartupFile>
+    </StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>ChapterFour</Name>
-    <RootNamespace>Chapter4</RootNamespace>
+    <Name>ChapterFive</Name>
+    <RootNamespace>Chapter5</RootNamespace>
     <InterpreterId>{2af0f10d-7135-4994-9156-5d01c9c11b7e}</InterpreterId>
     <InterpreterVersion>3.5</InterpreterVersion>
   </PropertyGroup>
@@ -25,23 +26,11 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Change.py" />
-    <Compile Include="Factorial.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Quadratic.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="SlopeDistance.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="SphereVolumeArea.py">
-      <SubType>Code</SubType>
-    </Compile>
-  </ItemGroup>
-  <ItemGroup>
     <InterpreterReference Include="{2af0f10d-7135-4994-9156-5d01c9c11b7e}\3.5" />
     <InterpreterReference Include="{43f9f78b-cd9c-4e24-9c05-e53131d05f34}\2.7" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ChapterFour.py" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
