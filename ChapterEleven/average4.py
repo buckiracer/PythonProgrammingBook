@@ -11,4 +11,4 @@ def main():
         xStr = input("Enter a number (<Enter> to quit) >> ")
     print("\nThe average of the numbers is", sum / count)
 
-main()
+main() 
